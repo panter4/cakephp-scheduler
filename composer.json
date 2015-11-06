@@ -1,5 +1,5 @@
 {
-	"name": "trentrichardson/cakephp-scheduler",
+	"name": "panter4/cakephp-scheduler",
 	"type": "cakephp-plugin",
 	"description": "Makes scheduling tasks in CakePHP much simpler.",
 	"keywords": ["cakephp","scheduler","cron job","task"],
@@ -11,8 +11,10 @@
 	    }
 	},
 	"require": {
-		"php": ">=5.3.6",
+		"php": ">=5.4",
 		"composer/installers": "*"
+		"mtdowling/cron-expression":"@stable"
+		"duncan3dc/fork-helper":"1.1.*"
 	},
 	"support": {
 		"source": "https://github.com/trentrichardson/cakephp-scheduler"
